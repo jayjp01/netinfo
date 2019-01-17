@@ -13,13 +13,11 @@
 
   function initCalculate(){
     if(connectionIsSupported()){
-      etype = navigator.connection.effectiveType
-      rtt = navigator.connection.rtt
-      dlink = navigator.connection.downlink
-      sdata = navigator.connection.saveData
       conn = navigator.connection
-    } else {
-      console.log(`Connection: ${'connection' in navigator}`)
+      etype = conn.effectiveType
+      rtt = conn.rtt
+      dlink = conn.downlink
+      sdata = conn.saveData
     }
 
     if(listenerAdded)

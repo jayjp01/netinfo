@@ -2,9 +2,19 @@
   "name": "netinfo",
   "version": "1.0.0",
   "description": "Browser network information",
-  "main": "index.js",
+  "main": "src/netinfo.js",
+  "scripts": {
+    "test": "",
+    "build": "terser -c -m -o dist/netinfo.min.js src/netinfo.js"
+  },
+  "devDependencies": {
+    "terser": "^3.14.1"
+  },
   "repository": "git@github.com:samarpanda/netinfo.git",
   "author": "Samar Panda <er.samarpanda@gmail.com>",
-  "license": "yes",
-  "private": false
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samarpanda/netinfo/issues"
+  },
+  "homepage": "https://github.com/samarpanda/netinfo"
 }
