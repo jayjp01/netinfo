@@ -1,0 +1,10 @@
+{
+  "name": "netinfo",
+  "version": "1.0.0",
+  "description": "Browser network information",
+  "main": "index.js",
+  "repository": "git@github.com:samarpanda/netinfo.git",
+  "author": "Samar Panda <er.samarpanda@gmail.com>",
+  "license": "yes",
+  "private": false
+}
