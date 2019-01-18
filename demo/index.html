@@ -1,0 +1,8 @@
+<script src="../dist/netinfo.min.js"></script>
+
+<script>
+  perfMetrics.onConnCaptured(function(etype, rtt, dlink, sdata, conn){
+  console.log(`etype: ${etype}, rtt: ${etype}, dlink: ${dlink}, sdata: ${sdata}`)
+  console.log(conn)
+})
+</script>
